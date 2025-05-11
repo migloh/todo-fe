@@ -29,3 +29,30 @@
   border-radius: 10px;
   cursor: pointer;
 }
+
+.modal {
+  background-color: #ffff88;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 60%;
+  border: 2px solid #000;
+  boxshadow: 24;
+  padding: 10px;
+}
+
+.modalHeader {
+  display: flex;
+  justify-content: space-between;
+}
+
+.pointerCursor {
+  cursor: pointer;
+}
+
+.modalAction {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
